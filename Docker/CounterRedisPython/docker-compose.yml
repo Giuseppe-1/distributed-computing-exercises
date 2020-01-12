@@ -5,7 +5,7 @@ services:
         links:
             - redis
         ports:
-            - "8080:5000"
+            - "9090:5000"
         volumes:
             - ./:/app
     redis:
